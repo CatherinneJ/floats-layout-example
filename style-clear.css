@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px 0;
+}
+.header-content {
+    display: inline-block;
+}
+.header-content h1 {
+    display: block;
+    margin: 0;
+    font-size: 2em;
+}
+nav {
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+#croissant-page {
+
+    display: inline-box;
+}
+
+.parent li ul {
+    display: inline-box;
+}
+
+.parent {
+    clear: both;
+    text-align: center;
+}
+
+nav ul,
+nav ul li,
+{
+display:inline-box;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:pink;
+}
+
+li {
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+hr {
+    color: white
+}
+
+footer p {
+    color: rgb(56, 4, 56);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.web-informations {
+    clear: both;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+}
+
+.bottom-copy {
+    text-align: center;
+}
+
+.bread {
+    float: left;
+}
+
+.eclair {
+    float: right;
+}
+.cheesecake {
+    display: block;
+    box-sizing: border-box;
+}
+
+.text-article {
+    text-align:justify;
+}
+/* justify when I want the text to be text aligned on both sides.  */
